@@ -9,7 +9,7 @@ description = "httpx API client toolkit — pagination, retry, rate limiting, au
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
-dependencies = ["httpx>=0.28"]
+dependencies = ["httpx>=0.28.1"]
 authors = [{ name = "CrashBytes", email = "crashbytes@users.noreply.github.com" }]
 keywords = ["httpx", "api-client", "pagination", "retry", "middleware"]
 classifiers = [
@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=9.0", "pytest-cov>=7.1", "pytest-asyncio>=1.4", "pytest-httpx>=0.36", "mypy>=1.20", "ruff>=0.15"]
+dev = ["pytest>=9.0.3", "pytest-cov>=7.1.0", "pytest-asyncio>=1.4.0", "pytest-httpx>=0.36.2", "mypy>=2.1.0", "ruff>=0.15.16"]
 
 [project.urls]
 Homepage = "https://github.com/CrashBytes/crashbytes-apiclient"
